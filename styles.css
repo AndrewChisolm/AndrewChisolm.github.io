@@ -1,18 +1,34 @@
 body{
-    background: whitesmoke;
-    font-family:Helvetica;
+    background: #73000a;
+    font-family: Helvetica;
 }
 .assignment {
     display:flex;
     padding:10px;
     margin:10px;
-    background: lightgray;
+    background: black;
+    color: white;
+    border-radius: 10px;
 }
 .assignment img{
     width:200px;
-    padding-right:10px;
+    margin:10px;
+    border: 5px solid #73000a;
+    border-radius: 5px;
 }
+.assignment img:hover {
+    border: 5px solid #AC0000;
+}
+
 h1 {
-    color: #73000a;
+    color: white;
     text-align: center;
+}
+
+a {
+    color: #AC0000;
+    text-decoration: underline;
+}
+a:hover{
+    color: #73000a;
 }
